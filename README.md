@@ -23,6 +23,6 @@ cd to where the repo is
 
 Run these commands:
 
-chmod +x macsetup.sh
+chmod +x mac_setup.sh
 
-./macsetup.sh
+./mac_setup.sh
