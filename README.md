@@ -107,4 +107,5 @@ Run these commands:
 
 # To-do
 
-Add more.
+Add links to packages [x]
+Add more packages []
