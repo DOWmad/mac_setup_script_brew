@@ -7,7 +7,7 @@ Please feel free to recommend other packages :)
 
 **Use at your own risk.** 
 
-Read and check if it is what you want before blindly running scripts.
+**Read and check if it is what you want before blindly running scripts.**
 
 # What it does:
 
