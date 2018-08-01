@@ -11,17 +11,16 @@ Read and check if it is what you want before blindly running scripts.
 
 # What it does:
 
-Install homebrew if not already there.
+# Install homebrew if not already there.
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Update and upgrade homebrew packages and homebrew itself.
-brew update
-brew upgrade
+> brew update
+> brew upgrade
 
 # Install some brew packs
-
-#This installs bash cli and bash completion
+# This installs bash cli and bash completion
 More info here: https://formulae.brew.sh/formula/bash-completion@2
 
 > brew install bash
@@ -58,7 +57,7 @@ https://github.com/github/hub
 
 > brew install hub
 
-# just the usual ssh protocol but more up to date.
+# Just the usual ssh protocol but more up to date.
 > brew install openssh
 
 # Awesome tool that lets you search the apple app store without launching it.
@@ -66,21 +65,15 @@ https://github.com/mas-cli/mas
 > brew install mas
 
 
-#Xcode CLI tools.
-xcode-select --install
+# Xcode CLI tools.
+> xcode-select --install
 
 
 echo "alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew cask cleanup; brew doctor'" >> ~/.bash_profile
 source ~/.bash_profile
 
 # Remove outdated versions from the cellar and general checkup with homebrew
-brewup
-
-
-
-# To-do
-
-Add more.
+> brewup
 
 # To use
 
@@ -95,3 +88,7 @@ Run these commands:
 > chmod +x mac_setup.sh
 
 > ./mac_setup.sh
+
+# To-do
+
+Add more.
