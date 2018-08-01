@@ -22,6 +22,7 @@ Please feel free to recommend other packages :)
 ```
 
 ## Install some brew packs
+
 ## This installs bash cli and bash completion
 More info [here](https://formulae.brew.sh/formula/bash-completion@2)
 ```
